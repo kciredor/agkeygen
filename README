@@ -1,0 +1,6 @@
+This is the Win32ASM sourcecode of a keygenerator for AudioGrabber 1.80 beta 3.
+Built with MASM, and lcc-win32 contains the required headers.
+
+It has been a long time since this application was eventually released as freeware by it's original author.
+
+Purpose of this release is sharing knowledge regarding algorithms, reverse engineering and assembler coding (Win32).

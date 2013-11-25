@@ -1,0 +1,22 @@
+/* Wedit generated resource file */
+#include <windows.h>
+
+100 DIALOG 58, 79, 222, 170
+STYLE DS_CENTER | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "AudioGrabber v1.80 (beta 3) - *KEYGENERATOR*"
+FONT 8, "Verdana"
+BEGIN
+    GROUPBOX        "Your Serial:", 106, 17, 10, 188, 53
+    EDITTEXT        101, 30, 33, 116, 12, ES_READONLY | ES_CENTER
+    DEFPUSHBUTTON      "&Generate!", 104, 152, 33, 40, 12, BS_FLAT
+
+    LTEXT    "Cracking/Coding by Predator [PC/pGC]",102,47,140,150,12, WS_DISABLED
+    LTEXT    "http://rotaderP.cjb.net",107,21,150,74,8
+    LTEXT    "Predator@PhrozenCrew.org",108,110,150,91,8
+    CONTROL -1, 600, "STATIC", SS_BITMAP | SS_REALSIZEIMAGE | SS_SUNKEN | WS_CHILD | WS_VISIBLE, 21, 75, 126, 55
+END
+
+500 ICON PC.ICO
+2001 BITMAP PC.BMP
+700 CURSOR HAND.CUR
